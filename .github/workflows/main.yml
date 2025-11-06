@@ -1,0 +1,7 @@
+on:
+  workflow_run:
+    workflows: ["CI"]
+    types:
+      - completed
+
+name: Build and Deploy to the Cloud
