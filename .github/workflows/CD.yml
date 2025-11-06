@@ -1,0 +1,17 @@
+on:
+  workflow_run:
+    workflows: ["CI"]
+    types:
+      - completed
+
+name: Build and Deploy to the Cloud
+
+env:
+  PROJECT_ID: "hola mundo"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Deploying"
+        run: echo "hola mundo"
