@@ -35,7 +35,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --prod --frozed-lockfile
 
       - name: Run global tests
         run: pnpm test
