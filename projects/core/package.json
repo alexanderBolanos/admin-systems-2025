@@ -11,10 +11,10 @@
   "license": "ISC",
   "packageManager": "pnpm@10.18.1",
   "dependencies": {
-    "zod": "^4.1.12"
+    "zod": "^4.6.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.5",
+    "@babel/core": "^7.29.6",
     "@babel/preset-env": "^7.28.5",
     "@babel/preset-typescript": "^7.28.5",
     "@jest/globals": "^30.2.0",
